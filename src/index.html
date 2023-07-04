@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Página con menú desplegable</title>
+  <style>
+    /* Estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    
+    header {
+      background-color: #8888f0;
+      color: #fff;
+      padding: 20px;
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline-block;
+    }
+    
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+    }
+    
+    nav ul li:hover {
+      background-color: #555;
+    }
+    
+    nav ul li:hover a {
+      color: #fff;
+      
+    }
+    
+    main {
+      flex: 1;
+      padding: 20px;
+      background-image: url('assets/imagenes/fodo.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    footer {
+      background-color:#8888f0;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    button {
+      background-color: #8275e2;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #656667;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Acerca</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li style="float: right; size: 50px;"><button>Acceder</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Contenido del cuerpo de la página -->
+    <h1>BIENVENIDO A LA WEB DE YO LEO</h1>
+    <p>Contenido de la página...</p>
+  </main>
+  
+
+  <footer>
+    <p>&copy; 2023 Mi Empresa. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
