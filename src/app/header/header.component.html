@@ -5,13 +5,13 @@
             <div class="col-12">
 
               <!-- Logo -->
-                <h1><a href="index.html" id="logo">YO LEO CON LORENZO</a></h1>
+                <h1><a href="" id="logo">YO LEO CON LORENZO</a></h1>
 
               <!-- Nav -->
-                <nav id="nav">
-                  <a href="index.html">INICIO</a>
-                  <a href="threecolumn.html">SOBRE NOSOTROS</a>
-                  <a href="twocolumn1.html">CONTACTOS</a>
+                <nav id="nav" >
+                  <a routerLink="/inicio" routerLinkActive="active">INICIO</a>
+                  <a routerLink="inicio/login" routerLinkActive="active">SOBRE NOSOTROS</a>
+                  <a routerLink="">CONTACTOS</a>
                 </nav>
 
             </div>
@@ -24,7 +24,10 @@
 
                 <!-- Banner Copy -->
                   <p>We do something really useful, important, and unique. Learn all about it here ...</p>
-                  <a href="#" class="button-large">ACCEDER</a>
+                  <li routerLinkActive="active" class="button-large">
+                    <a routerLink="/login" class="button-large">ACCEDER</a>
+                  </li>
+                  
 
               </div>
               <div class="col-6 col-12-medium imp-medium">
@@ -37,3 +40,4 @@
           </div>
         </div>
       </section>
+      
